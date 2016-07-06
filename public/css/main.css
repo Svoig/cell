@@ -1,0 +1,22 @@
+.blue {
+	display: block;
+	position: absolute;
+	top: 50%;
+	height: 5em;
+	width: 5em;
+	background-color: blue;
+	transition: opacity 1s;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+#spawn {
+	position: absolute;
+	left: 50%;
+	background-color: #aaa;
+	border-radius: 20px;
+	width: 8em;
+	text-align: center;
+}
